@@ -1,0 +1,112 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  header  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  header h1, h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  header img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  section {
+    padding: 10px;
+  }
+  
+  .application-container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+  }
+  
+  .application {
+    width: 30%;
+    text-align: center;
+    margin: 1px;
+  }
+  .application1 {
+    width: 500px;
+    text-align: center;
+    margin: 50px;
+  }
+  .featured {
+    width: 75%;
+  }
+  .second-featured {
+    width: 75%;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+    
+    header img {
+      width: 150px;
+      height: 150px;
+    }
+    
+    nav {
+      margin-top: 20px;
+    }
+    
+    nav ul {
+      flex-direction: column;
+    }
+    
+    nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
